@@ -116,7 +116,7 @@ const styles = `
   .cred-icon{font-size:18px;flex-shrink:0;margin-top:2px}
   .cred-t{font-size:14px;font-weight:600;color:var(--ink);margin-bottom:3px}
   .cred-d{font-size:12.5px;color:var(--muted);line-height:1.6}
-  .dark-card{background:var(--ink);border-radius:4px;padding:36px;margin-bottom:18px;position:relative;overflow:hidden}
+  .dark-card{background:#0c0c0e;border-radius:4px;padding:36px;margin-bottom:18px;position:relative;overflow:hidden}
   .dc-ghost{position:absolute;bottom:-20px;right:-10px;font-family:'Cormorant Garamond',serif;font-size:120px;font-weight:700;color:rgba(196,154,42,.07);line-height:1;user-select:none;pointer-events:none}
   .dc-label{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
   .dc-text{font-family:'Cormorant Garamond',serif;font-size:19px;font-style:italic;color:rgba(250,249,246,.82);line-height:1.6;position:relative;z-index:1}
@@ -186,7 +186,7 @@ const styles = `
 
   /* CONTACT */
   .contact-wrap{max-width:640px}
-  .contact-card{background:var(--ink);border-radius:4px;padding:36px;margin-bottom:18px;position:relative;overflow:hidden}
+  .contact-card{background:#0c0c0e;border-radius:4px;padding:36px;margin-bottom:18px;position:relative;overflow:hidden}
   .cc-ghost{position:absolute;bottom:-20px;right:-10px;font-family:'Cormorant Garamond',serif;font-size:120px;font-weight:700;color:rgba(196,154,42,.07);line-height:1;pointer-events:none;user-select:none}
   .cc-label{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
   .cc-text{font-family:'Cormorant Garamond',serif;font-size:19px;font-style:italic;color:rgba(250,249,246,.82);line-height:1.6;position:relative;z-index:1}
@@ -635,4 +635,3 @@ export default function TheEPortfolio() {
       </footer>
     </>
   );
-}
